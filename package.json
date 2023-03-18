@@ -1,0 +1,14 @@
+{
+  "name": "ghost-packing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "acorn": "^8.8.2",
+    "livereload": "^0.9.3",
+    "magic-string": "^0.30.0"
+  },
+  "bin": {
+    "ghost": "./index.js"
+  }
+}
