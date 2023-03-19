@@ -27,6 +27,9 @@ const instruction = {
                 instruction['openGhost']({ ghost, input, file: config.output.file });
             }
         });
+    },
+    '-v': () => {
+        console.log('-v 1.0.4');
     }
 }
 

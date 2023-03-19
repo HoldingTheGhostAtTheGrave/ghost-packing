@@ -10,7 +10,16 @@
 * input 为打包文件的入库
 * output.file 为输出文件的名称
 * server 开启热更新 如不配置则默认不开启
+* server.listeningDir 热更新侦听的文件目录 不传默认为 src目录
 * 命令执行：ghost --config 执行配置文件
+
+* npm run dev
+```js
+// 本地使用 package.json 
+"scripts": {
+    "dev": "ghost --config"
+}
+```
 
 ```js
 export default {
@@ -23,3 +32,4 @@ export default {
     }
 }
 ```
+
